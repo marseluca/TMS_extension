@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TMS Jobs Viewer",
+  "version": "1.1.0",
+  "description": "Mostra la lista dei job da translationtms.com e permette di accettarli con un click.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.translationtms.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TMS Jobs"
+  }
+}
